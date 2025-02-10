@@ -30,7 +30,7 @@ function ContactForm() {
         "service_4fshqn7", // Your EmailJS service ID
         "template_yx83cnc", // Your template ID
         templateParams,
-        "fOTUerzLvS2IH25YY" // Your Public API Key
+        "UsGytCvQ9CY_Dm-Fa" // Your Public API Key
       )
       .then(
         (response) => {
