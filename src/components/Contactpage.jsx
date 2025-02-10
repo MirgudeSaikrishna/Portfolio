@@ -28,7 +28,7 @@ function ContactForm() {
     emailjs
       .send(
         "service_4fshqn7", // Your EmailJS service ID
-        "template_yx83cnc", // Your template ID
+        "template_nsw4b6j", // Your template ID
         templateParams,
         "UsGytCvQ9CY_Dm-Fa" // Your Public API Key
       )
