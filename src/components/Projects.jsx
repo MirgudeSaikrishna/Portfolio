@@ -8,7 +8,7 @@ function Projects() {
       description: "An interactive webpage created using react helps in building your first resume.",
       imageUrl: "/images/rebuild.png",
       link: "https://resume-builder-n44nn1vmx-saimirgude-gmailcoms-projects.vercel.app/", 
-      tech: "HTML, CSS"
+      tech: "React"
     },
   
     {
