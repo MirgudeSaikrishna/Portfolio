@@ -30,9 +30,8 @@ function About() {
           <p className="text-lg sm:text-xl opacity-80 leading-relaxed">
             I’m{" "}
             <span className="text-yellow-400 font-bold">SaiKrishna Mirgude</span>, a
-            dedicated Full-Stack Web Developer with a passion for creating
-            dynamic and user-friendly websites. Skilled in HTML, CSS,
-            JavaScript, PHP, and React.js, I focus on building responsive
+            dedicated MERN Stack Web Developer with a passion for creating
+            dynamic and user-friendly websites. I focus on building responsive
             designs and seamless user experiences. My curiosity for modern web
             technologies drives me to craft solutions that merge functionality
             and creativity.
