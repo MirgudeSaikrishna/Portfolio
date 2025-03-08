@@ -12,11 +12,11 @@ function Projects() {
     },
   
     {
-      title: "BMI Calculator",
-      description: "A webpage created for knowing your health using html, css and React",
-      imageUrl: "/images/bmi.png", // Replace with your project image URLs
-      link: "https://bmi-delta-henna.vercel.app/", // Replace with the link to the project
-      tech: "HTML, CSS, Bootstrap"
+      title: "TASK Manager",
+      description: "A webpage that helps in managing your tasks",
+      imageUrl: "/images/Capture.PNG", 
+      link: "https://to-do-sigma-steel.vercel.app/", 
+      tech: "React, Weather API"
     },
   ];
 
@@ -43,11 +43,11 @@ function Projects() {
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
             {/* Image */}
-            <div className="w-full sm:w-1/2 h-36 sm:h-48"> {/* Decreased height of the image container */}
+            <div className="w-full sm:w-1/2 h-36 sm:h-48">
               <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-full object-cover" // Ensures image covers the entire left side of the card
+                className="w-full h-full object-cover"
               />
             </div>
 
