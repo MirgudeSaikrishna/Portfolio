@@ -6,17 +6,11 @@ function Projects() {
     {
       title: "Resume Builder",
       description: "An interactive webpage created using react helps in building your first resume.",
-      imageUrl: "/images/rebuild.png", // Replace with your project image URLs
-      link: "https://resume-builder-n44nn1vmx-saimirgude-gmailcoms-projects.vercel.app/", // Replace with the link to the project
+      imageUrl: "/images/rebuild.png",
+      link: "https://resume-builder-n44nn1vmx-saimirgude-gmailcoms-projects.vercel.app/", 
       tech: "HTML, CSS"
     },
-    // {
-    //   title: "Netflix Clone",
-    //   description: "A Netflix-like UI clone made using React and Tailwind CSS.",
-    //   imageUrl: "/images/about.png", // Replace with your project image URLs
-    //   link: "#", // Replace with the link to the project
-    //   tech: "HTML, CSS, BOOTSTRAP"
-    // },
+  
     {
       title: "BMI Calculator",
       description: "A webpage created for knowing your health using html, css and React",
@@ -24,13 +18,6 @@ function Projects() {
       link: "https://bmi-delta-henna.vercel.app/", // Replace with the link to the project
       tech: "HTML, CSS, Bootstrap"
     },
-    // {
-    //   title: "Product Catalogue",
-    //   description: "A Product Catalogue website with PHP as backend.",
-    //   imageUrl: "/images/about.png", // Replace with your project image URLs
-    //   link: "#", // Replace with the link to the project
-    //   tech: "HTML, CSS, BOOTSTRAP, PHP"
-    // },
   ];
 
   return (
