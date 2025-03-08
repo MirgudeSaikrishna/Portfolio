@@ -16,8 +16,7 @@ function Hero() {
             Hi, I'm Sai Krishna
           </h1>
           <p className="mt-4 text-lg sm:text-xl opacity-80">
-            I am a passionate Full-Stack Web Developer skilled in HTML, CSS,
-            JavaScript, React.js, Java(DSA). I specialize in creating responsive
+            I am a passionate Full-Stack Web Developer skilled in Web dev, Java(DSA). I specialize in creating responsive
             websites with clean code and modern design principles, delivering
             user-friendly interfaces and efficient functionality.
           </p>
