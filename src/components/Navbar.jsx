@@ -1,5 +1,7 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import {Document} from "react-pdf";
+// import {resume} from "../images/resume (2).pdf";
 
 function Navbar() {
   const scrollToTop = () => {
@@ -49,8 +51,16 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Social Media Icons */}
+        
         <div className="flex space-x-4 items-center">
+        <a
+            href="../images/resume (2).pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-yellow-400 transition"
+          >
+            Resume
+          </a>
           <a
             href="https://github.com/MirgudeSaikrishna/"
             target="_blank"
@@ -68,15 +78,7 @@ function Navbar() {
           >
             <FaLinkedin size={22} />
           </a>
-          {/* <a
-            href="https://www.instagram.com/nirvignya/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:scale-110 transform transition"
-            style={{ color: "#e1306c" }}
-          >
-            <FaInstagram size={22} />
-          </a> */}
+          
         </div>
       </div>
     </nav>

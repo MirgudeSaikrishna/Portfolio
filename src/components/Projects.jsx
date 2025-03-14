@@ -4,19 +4,27 @@ import { motion } from "framer-motion";
 function Projects() {
   const projects = [
     {
-      title: "Resume Builder",
-      description: "An interactive webpage created using react helps in building your first resume.",
+      title: "Cura-Med",
+      description: "A webpage that helps in finding the pharmacies and drug availability",
       imageUrl: "/images/rebuild.png",
-      link: "https://resume-builder-n44nn1vmx-saimirgude-gmailcoms-projects.vercel.app/", 
-      tech: "React"
+      link: "https://github.com/MirgudeSaikrishna/cura-med", 
+      tech: "Mern"
     },
   
     {
       title: "TASK Manager",
       description: "A webpage that helps in managing your tasks",
-      imageUrl: "/images/Capture.PNG", 
+      imageUrl: "/images/Capture.PNG",
       link: "https://to-do-sigma-steel.vercel.app/", 
       tech: "React, Weather API"
+    },
+
+    {
+      title: "BlogAi",
+      description: "A web app that gives you a kickstart writing blogs",
+      imageUrl: "/images/blog.PNG",
+      link: "https://blog-ai-ten.vercel.app/", 
+      tech: "React, Express, Node, Gemini API"
     },
   ];
 
@@ -59,7 +67,7 @@ function Projects() {
               <div className="w-full sm:w-1/2">
                 <a
                   href={project.link}
-                  className="bg-yellow-300 text-gray-800 px-4 py-1 rounded-full hover:bg-yellow-500 transition-all w-full sm:w-auto"
+                  className="bg-yellow-300 text-gray-800 rounded-full hover:bg-yellow-500   py-2"
                 >
                   View Project
                 </a>
