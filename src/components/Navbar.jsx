@@ -54,7 +54,7 @@ function Navbar() {
         
         <div className="flex space-x-4 items-center">
         <a
-            href="../images/MirgudeSaiKrishna.pdf"
+            href="../images/MirgudeSaikrishna.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-yellow-400 transition"
