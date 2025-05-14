@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center text-gray-300 space-y-4 sm:space-y-0 sm:space-x-4">
         {/* Text */}
         <div className="text-sm sm:text-lg text-gray-400">
-          <p>© 2024 port. All rights reserved.</p>
+          <p>© 2024. All rights reserved.</p>
         </div>
 
         {/* Social Icons */}
